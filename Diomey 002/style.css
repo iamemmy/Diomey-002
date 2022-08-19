@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu;
+}
+body{
+    background: url(images/background2.jpg);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* -------- Navbar area ---------- */
+.navbar{
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 2px 0 #4e4e52;
+}
+.logo-resize{
+    border-radius: 50%;
+    width: 60px;
+}
+
+
+/* -------- Banner area ---------- */
+.banner{
+    background:url(images/sky-scrappers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+/* -------- Welcome --------- */
+.welcome{
+    margin-bottom: 20px !important;
+}
+.welcome img{
+    width: 50px;
+}
+.welcome h3{
+    font-size: 16px;
+}
+.welcome p{
+    color: rgb(99, 99, 105);
+}
+
+
+/* --------- Buttons ---------- */
+.button{
+    background-color: #FFC107 !important;
+    border: 2px solid yellow;
+}
+.button:hover{
+    background-color: yellow !important;
+}
+
+
+/* --------- Services/ What we do ---------- */
+.services h5{
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+.services p{
+    margin-bottom: 2em;
+    font-size: 14px;
+    color: rgb(67, 67, 78);
+}
+.services a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* -------- Why Choose us area --------- */
+.lower-section h5{
+    font-size: 18px;
+}
+.lower-section p{
+    font-size: 14px;
+}
+
+/* ------- Join Us area --------- */
+.join{
+    background: url(images/join.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    height: 5vh !important;
+    padding-top: 6px;
+}
+
+
+/* --------//Read more 1---------- */
+.mlm{
+    background:url(images/multilevel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* --------//Read more 2---------- */
+.crypt{
+    background:url(images/crypto-0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.trade{
+    background: linear-gradient(230deg, rgb(63, 3, 131), rgb(13, 13, 77));
+}
+
+/* --------//Read more 3---------- */
+.article{
+    background:url(images/sales.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* --------//Contact us---------- */
+.contact-us{
+    background:url(images/navyblue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* --------//About us---------- */
+.about-us{
+    background:url(images/navyblue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}

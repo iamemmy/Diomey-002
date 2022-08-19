@@ -1,0 +1,115 @@
+/* Desktops (Screen = 1281px to higher resolution desktops)*/
+@media (min-width: 1281px) {
+    /* CSS */
+}
+  
+/* Laptops, Desktops(Screen = B/w 1025px to 1280px)*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+}
+  
+/* Tablets, Ipads [portrait](Screen = B/w 768px to 1024px)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner{
+        height: 80vh;
+    }
+    .banner-item h1{
+        font-size: 25px;
+    }
+    .banner-item p{
+        font-size: 15px;
+    }
+    .explore-cont{
+        background: 50vh !important;
+    }
+}
+  
+/* Tablets, Ipads [landscape](Screen = B/w 768px to 1024px)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .banner{
+        height: 80vh;
+    }
+    .banner-item h1{
+        font-size: 26px;
+    }
+    .banner-item p{
+        font-size: 16px;
+    }
+    .explore-cont{
+        background: 50vh !important;
+    }
+}
+  
+/* Low Resolution Tablets, Mobiles [Landscape](Screen = B/w 481px to 767px)*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .banner{
+        height: 70vh;
+    }
+    .banner-item h1{
+        font-size: 24px;
+    }
+    .banner-item p{
+        font-size: 14px;
+    }
+    .storyset{
+        display: none;
+    }
+    .explore-cont{
+        height: 50vh !important;
+    }
+    .explore{
+        text-align: center;
+    }
+    .mlm{
+        height: 65vh;
+    }
+    .crypt{
+        height: 65vh;
+    }
+    .article{
+        height: 65vh;
+    }
+    .contact-us{
+        height: 65vh;
+    }
+    .about-us{
+        height: 65vh;
+    }
+}
+  
+/* Most of the Smartphones Mobiles [Portrait](Screen = B/w 320px to 479px*/
+@media (min-width: 280px) and (max-width: 480px) {
+    .banner{
+        height: 65vh;
+    }
+    .banner-item h1{
+        font-size: 22px;
+    }
+    .banner-item p{
+        font-size: 12px;
+    }
+    .storyset{
+        display: none;
+    }
+    .explore-cont{
+        background: 50vh !important;
+    }
+    .explore{
+        text-align: center;
+    }
+    .mlm{
+        height: 65vh;
+    }
+    .crypt{
+        height: 65vh;
+    }
+    .article{
+        height: 65vh;
+    }
+    .contact-us{
+        height: 65vh;
+    }
+    .about-us{
+        height: 65vh;
+    }
+}
